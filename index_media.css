@@ -1,0 +1,108 @@
+@media screen and (width < 500px) {
+  body {
+    max-width: 500px;
+  }
+  .phone {
+    background-size: cover;
+    width: 500px;
+  }
+  .topheader {
+    display: block;
+    padding: 20px 50px;
+  }
+  .menu ul {
+    display: grid;
+    padding-bottom: 50px;
+  }
+  .logo a {
+    font-size: 20px;
+  }
+  .menu ul a {
+    margin: 0px auto;
+    font-size: 25px;
+    white-space: nowrap;
+  }
+  .open {
+    text-decoration: none;
+  }
+  .button_top_header button {
+    display: none;
+  }
+  .mainheader {
+    padding: 0px 20px 0px 20px;
+  }
+  h1 {
+    font-size: 30px;
+    line-height: 35px;
+    padding-bottom: 20px;
+  }
+  .h1 {
+    font-size: 30px;
+    line-height: 35px;
+  }
+  .butheader {
+    display: none;
+  }
+  .one_hr{
+    padding-top: 150px;
+  }
+  .why_me {
+    padding: 120px 50px;
+  }
+  .grid_me {
+    grid-template-columns: 1fr;
+  }
+  .grid_me div {
+    width: 335px;
+  }
+  .name_g {
+    font-size: 19px;
+  }
+  .desc_g {
+    padding: 5px 15px 15px 15px;
+    font-size: 15px;
+  }
+  .framework_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .framework_1 p {
+    padding: 10px;
+    font-size: 30px;
+    padding-left: 25%;
+    font-family: "Revalia", sans-serif;
+  }
+  .framework_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .framework_2 p {
+    padding: 10px;
+    font-size: 30px;
+    padding-left: 25%;
+    font-family: "Revalia", sans-serif;
+  }
+  .no_quest button {
+    margin: 0px auto;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+  }
+  .question_answer {
+    max-width: 500px;
+  }
+  .start_q_a div {
+    width: 450px;
+    height: auto;
+    opacity: 0.7;
+    margin: 5px;
+  }
+  .question_answer p {
+    font-size: 10px;
+    padding: 0px;
+    font-weight: 300;
+    line-height: 10px; /* 166.667% */
+  }
+}
