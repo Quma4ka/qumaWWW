@@ -1,13 +1,13 @@
-@media screen and (width < 500px) {
+@media screen and (width < 1000px) {
   body {
-    max-width: 501px;
+    max-width: 1001px;
   }
   html {
     scroll-behavior: smooth;
   }
   .phone {
     background-size: cover;
-    width: 600px;
+    width: 1001px;
     height: 870px;
     position: absolute;
   }
@@ -22,7 +22,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 24%;
+    gap: 34%;
   }
 
   #side-checkbox {
@@ -162,7 +162,7 @@
     top: 870px;
   }
   .but_main_header {
-    padding-bottom: 130px;
+    padding-bottom: 230px;
   }
   .but_main_header button {
     width: 250px;
@@ -238,19 +238,47 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 300;
-    line-height: 30px; /* 166.667% */
+    line-height: 30px;
   }
   .footer_menu h2 {
     font-size: 13px;
   }
+  .footer_menu {
+    padding: 10px 30px;
+  }
+  .mobile_q_a h1 {
+    margin: 0px;
+    padding: 40px;
+  }
+  .buts_1{
+    margin: 0px auto;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.45px;
+    text-transform: uppercase;
+    width: 80%;
+    height: 50px;
+    border: solid 1px rgba(255, 255, 255, 0.609);
+    border-radius: 10px;
+  }
 }
 
-@media screen and (width > 501px) {
+@media screen and (width > 1001px) {
   .menu_header_button,
   #side-checkbox,
   .side-button-2,
   .phoneSSS,
   .mobile_q_a {
     display: none;
+  }
+}
+
+@media screen and (width < 600px) {
+  .but_main_header {
+    padding-bottom: 100px;
   }
 }

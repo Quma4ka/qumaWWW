@@ -299,7 +299,7 @@ h2 {
 
 .grid_me div {
   width: 610px;
-  height: 179px;
+  height: auto;
   flex-shrink: 0;
   border-radius: 12px;
   border: 1.5px solid #2d2d5a;
@@ -326,7 +326,8 @@ h2 {
 }
 
 .desc_g {
-  padding-top: 25px;
+  margin: 20px;
+  padding-top: 5px;
   color: #fff;
   font-family: Montserrat;
   font-size: 18px;
