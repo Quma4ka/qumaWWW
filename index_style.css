@@ -287,11 +287,14 @@ h2 {
 }
 
 .why_me {
-  padding: 120px 320px;
+  padding: 120px 0px;
+  margin: 0px auto;
 }
 
 .grid_me {
+  margin: 0px auto;
   display: grid;
+  max-width: 1200px;
   padding-top: 50px;
   grid-template-columns: 2fr 2fr;
   gap: 20px;
@@ -462,9 +465,10 @@ h2 {
 .footer_menu {
   display: flex;
   padding-top: 20px;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1500px;
   margin: 0px auto;
   text-align: center;
   padding-bottom: 25px;
+  gap: 30%;
 }
