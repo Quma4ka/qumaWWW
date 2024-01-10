@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
     <link rel="stylesheet" href="index_style.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="index_media.css" />
@@ -17,14 +18,34 @@
         <div class="topheader">
           <div class="logo">
             <a href="index.html">quma</a>
+            <div class="phoneSSS">
+              <input type="checkbox" id="side-checkbox" />
+              <div class="side-panel">
+                <label class="side-button-2" for="side-checkbox">+</label>
+                <div class="side-title">quma</div>
+                <ul>
+                  <li>
+                    <a href="index.html">Главная</a></li>
+                  <li><a href="project.html">Наши проекты</a></li>
+                  <li><a href="contact.html">Контакты</a></li>
+                </ul>
+              </div>
+              <div class="side-button-1-wr">
+                <label class="side-button-1" for="side-checkbox">
+                  <div class="side-b side-open">
+                    <img src="img/menu.svg" alt="" />
+                  </div>
+                </label>
+              </div>
+            </div>
           </div>
           <div class="menu">
             <ul>
               <li>
                 <a href="index.html"><span class="open">Главная</span></a>
               </li>
-              <li><a href="#">О нас</a></li>
-              <li><a href="#">Наши проекты</a></li>
+              <li><a href="#we">О нас</a></li>
+              <li><a href="project.html">Наши проекты</a></li>
               <li><a href="contact.html">Контакты</a></li>
             </ul>
           </div>
@@ -78,7 +99,7 @@
         </div>
       </div>
     </header>
-    <div class="one_hr"> <hr class="header-main" /></div>
+    <div class="one_hr"><hr class="header-main" /></div>
 
     <main class="main">
       <section class="phone_main">
@@ -105,7 +126,7 @@
           <img src="img/Vector.png" alt="" />
         </div>
       </section>
-      <section class="why_me">
+      <section class="why_me" id="we">
         <h1>Почему вы должны<br />обратить на нас ванимание?</h1>
         <div class="grid_me">
           <div>
