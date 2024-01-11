@@ -18,6 +18,9 @@ body {
   background-position: center;
 }
 
+header {
+  position: relative;
+}
 .topheader {
   display: flex;
   justify-content: space-between;
@@ -79,8 +82,8 @@ h1 {
   font-weight: 500;
   text-align: left;
   opacity: 0.9;
-  white-space: nowrap;
   padding-top: 5cqmin;
+  max-width: 750px;
 }
 
 .main {
@@ -88,6 +91,7 @@ h1 {
   display: flex;
   justify-content: center;
   gap: 50px;
+  position: relative;
 }
 
 h2 {
@@ -196,4 +200,59 @@ h2 {
   flex-shrink: 0;
   width: 650px;
   height: 50px;
+}
+
+.input label {
+  color: #c3c3df;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* ..................................... */
+
+.phone_main {
+  width: 1920px;
+  position: absolute;
+  z-index: -1;
+}
+
+.blure_1 {
+  width: 347.906px;
+  height: 919.153px;
+  flex-shrink: 0;
+  border-radius: 233.5px;
+  background: linear-gradient(
+    180deg,
+    rgba(156, 84, 212, 0.27) 0%,
+    rgba(212, 84, 84, 0.11) 100%
+  );
+  filter: blur(150px);
+  justify-content: flex-end;
+  position: absolute;
+}
+
+#b_1 {
+  top: -100px;
+  left: -100px;
+}
+
+.vector1 {
+  transform: rotate(90deg);
+  position: absolute;
+  top: -600px;
+  left: 100px;
+}
+
+#b_2 {
+  top: -100px;
+  left: 1700px;
+}
+
+#b_3 {
+  top: -500px;
+  left: 600px;
+  opacity: 0.7;
 }

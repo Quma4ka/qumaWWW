@@ -43,14 +43,14 @@
 .vecrot2 {
   opacity: 0.5;
   z-index: -1;
-  top: 1450px;
+  top: 1350px;
   transform: rotate(90deg);
   position: absolute;
 }
 .vecrot3 {
   opacity: 0.5;
   z-index: -1;
-  top: 1820px;
+  top: 1920px;
   left: 1200px;
   transform: rotate(-90deg);
   position: absolute;
@@ -111,7 +111,7 @@ body {
 
 
 .phone {
-  background-image: url("img/phone.jpg");
+  background-image: url("/img/phone.jpg");
   background-size: cover;
   width: 1920px;
   height: 900px;
