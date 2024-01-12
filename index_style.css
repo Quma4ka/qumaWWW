@@ -111,7 +111,7 @@ body {
 
 
 .phone {
-  background-image: url("/img/phone.jpg");
+  background-image: url("img/phone.jpg");
   background-size: cover;
   width: 1920px;
   height: 900px;
