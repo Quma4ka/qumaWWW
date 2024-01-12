@@ -1,7 +1,4 @@
 @media screen and (width < 1001px) {
-  .menu {
-    display: none;
-  }
   #side-checkbox {
     display: none;
   }
@@ -109,15 +106,82 @@
     transform: rotate(45deg) scale(1.1);
     color: #fff;
   }
-  .header {
-    max-width: 320px;
-    display: flex;
-    justify-content: end;
+  .menu {
+    display: none;
   }
+
+  .topheader {
+    justify-content: center;
+    gap: 100%;
+  }
+  .logo a {
+    font-size: 30px;
+  }
+  h1 {
+    font-size: 100%;
+    font-weight: 500;
+    margin: 0px auto;
+    padding: 80px 20% 20px 20%;
+  }
+  .main {
+    width: 80%;
+    display: grid;
+    justify-content: center;
+    margin: 0px auto;
+    padding: 0px 200px;
+    position: relative;
+  }
+  .form {
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+  }
+  .form div {
+    display: flex;
+    align-items: center;
+  }
+  .number label {
+    margin-right: 21px;
+  }
+
+  .name label {
+    margin-right: 50px;
+  }
+
+  .email label {
+    margin-right: 47px;
+  }
+  .form input {
+    width: 240px;
+  }
+  .button_form {
+    padding: 100 0px;
+  }
+  .button_form button {
+    margin: 0px auto;
+    justify-content: center;
+    text-align: center;
+    width: 450px;
+    height: 50px;
+  }
+  .main_footer_con {
+    padding: 40px 0px 70px 0px;
+  }
+  .footer_menu {
+    display: none;
+  }
+
 }
 
 @media screen and (width > 1001px) {
   .phoneSSS {
     display: none;
+  }
+}
+
+@media screen and (width < 400px) {
+  h1 {
+    font-size: 70%;
+    padding: 80px 36% 20px 30%;
   }
 }
