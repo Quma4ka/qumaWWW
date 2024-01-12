@@ -1,13 +1,13 @@
-@media screen and (width < 1000px) {
+@media screen and (width < 1600px) {
   body {
-    max-width: 1001px;
+    max-width: 1601px;
   }
   html {
     scroll-behavior: smooth;
   }
   .phone {
     background-size: cover;
-    width: 1001px;
+    width: 1601px;
     height: 870px;
     position: absolute;
   }
@@ -267,7 +267,7 @@
   }
 }
 
-@media screen and (width > 1001px) {
+@media screen and (width > 1601px) {
   .menu_header_button,
   #side-checkbox,
   .side-button-2,
