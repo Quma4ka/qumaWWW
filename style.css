@@ -9,17 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-.phone_color {
-  position: absolute;
-  background: rgb(14, 211, 221);
-  width: 200vh;
-  height: 9999px;
-  left: 0px;
-  top: 0px;
-  z-index: -1;
-  opacity: 0.13;
-}
-
 .top_header {
   display: flex;
   justify-content: space-between;
@@ -128,9 +117,6 @@ h1 span {
   left: 35%;
 }
 
-
-
-
 .main_text_header {
   padding-top: 70px;
 }
@@ -222,7 +208,6 @@ h1 span {
   padding-left: 15px;
   text-decoration: underline 2px red;
   text-underline-offset: 10px;
-
 }
 
 .grid_prioritet hr {
@@ -263,4 +248,195 @@ h1 span {
   font-weight: 800;
   line-height: normal;
   opacity: 0.9;
+}
+
+.why_me_give_bayer {
+  padding-top: 150px;
+}
+
+.give {
+  text-align: center;
+  margin: 50px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+
+h2 {
+  color: var(--2, #6b5af9);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+  margin: 0px 0px 17px 0px;
+}
+
+.give li {
+  color: #2a2367;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  margin: 0px 0px 8px 0px;
+}
+.button_give {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.button_give button {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 275px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--2, #6b5af9);
+}
+
+.grid_prioritet div:hover {
+  border-radius: 10px;
+  background: #e37575;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.grid_prioritet div:hover > p {
+  color: white;
+}
+
+.grid_prioritet div:hover > .nameP {
+  text-decoration: underline 2px white;
+}
+
+.study_busines {
+  padding-top: 140px;
+}
+
+.block_study p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 90%;
+  margin: 10px 0px;
+}
+
+.block_study {
+  display: flex;
+  align-items: center;
+}
+
+h3 {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+h3 span {
+  color: #6b5af9;
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.stages {
+  text-align: center;
+}
+
+.grid_stages {
+  padding-top: 30px;
+  display: grid;
+  margin: 0px auto;
+  grid-template-columns: 1fr 1fr;
+  max-width: 90%;
+}
+
+.stages_grids {
+  width: 668px;
+  height: auto;
+  margin: 40px auto;
+  border-radius: 10px;
+  box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15);
+}
+
+.num_stages p {
+  width: 53px;
+  height: 53px;
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #43cd93;
+  align-items: center;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 11px;
+}
+
+.name_stages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 90px;
+}
+
+.text_stages p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 10px;
+}
+
+.hr_stages {
+  padding: 9px 0px 29px 0px;
+  display: flex;
+  justify-content: center;
+}
+
+.hr_stages hr {
+  width: 582px;
+  height: 1px;
+  background: #ebebeb;
+}
+
+.text_main_stages p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  padding: 0px 43px 15px 43px;
+}
+
+.img_stage {
+  padding-bottom: 40px;
+}
+
+.footer {
+  pointer-events: none;
 }
