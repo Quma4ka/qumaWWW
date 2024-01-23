@@ -1,0 +1,17 @@
+@media screen and (width < 1900px) {
+    .grid_stages {
+        max-width: 140%;
+      }
+      .stages_grids {
+        width: 520px;
+      }
+      .img_stage img {
+        width: 520px;
+      }
+      
+}
+
+
+@media screen and (width < 1390px) {
+
+}
