@@ -8,6 +8,9 @@
   .img_stage img {
     width: 520px;
   }
+  body {
+    overflow-x: hidden; /* отключаем прокрутку по горизонтали */
+  }
 }
 
 @media screen and (width < 1391px) {
@@ -32,6 +35,8 @@
   .menu-icon {
     display: block;
     cursor: pointer;
+    font-size: 50px;
+    color: #5d50cf;
   }
 
   #menu {
@@ -95,12 +100,26 @@
   #menu-toggle:checked ~ #menu {
     left: 0;
   }
+  html {
+    overflow-x: hidden;
+  }
+  .block_study {
+    display: grid;
+    text-align: center;
+  }
+  body {
+    padding: 0px 200px;
+  }
 }
 
 @media screen and (width > 1391px) {
+  .mobile_header,
   .button_menu_m,
   .m_put_header,
   .phone_butt {
     display: none;
+  }
+  body {
+    overflow-x: hidden;
   }
 }
