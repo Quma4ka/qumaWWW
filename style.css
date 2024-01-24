@@ -578,3 +578,7 @@ h3 span {
   line-height: normal;
   text-decoration-line: underline;
 }
+
+.hidden {
+  display: none;
+}
