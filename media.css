@@ -108,7 +108,56 @@
     text-align: center;
   }
   body {
-    padding: 0px 200px;
+    padding: 0px 100px;
+  }
+  .photo_main_header {
+    top: -20px;
+    left: 0%;
+  }
+  .photo_main_header img {
+    width: 110%;
+  }
+  .main_text_header {
+    padding-top: 65%;
+    text-align: center;
+    width: 140%;
+  }
+  .main_text_header div {
+    padding-top: 50px;
+  }
+  .prioritet {
+    padding-top: 50px;
+  }
+  .grid_prioritet {
+    grid-template-columns: 1fr 1fr;
+  }
+  .descriptP {
+    padding: 5px 38px 15px 10px;
+  }
+  .nameP {
+    font-size: 12px;
+    text-decoration: underline 2px red;
+    text-underline-offset: 5px;
+  }
+  h3 {
+    text-align: center;
+  }
+  .give {
+    gap: 0px;
+  }
+  .give img {
+    width: 100%;
+  }
+  .button_give {
+    padding-top: 50px;
+  }
+  .grid_stages {
+    padding-top: 15px;
+    grid-template-columns: 1fr;
+  }
+  .stages_grids {
+    width: 100%;
+    margin: 20px auto;
   }
 }
 
