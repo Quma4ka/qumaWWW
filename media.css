@@ -246,7 +246,7 @@
   }
   .block_study p {
     font-size: 20px;
-    width: 80vw;
+    width: 70vw;
     text-align: left;
   }
   .study_busines h3 {
@@ -254,8 +254,8 @@
   }
   .block_study img {
     position: absolute;
-    width: 70vw;
-    left: 20%;
+    width: 65vw;
+    left: 20%;  
   }
   .stages_grids, .img_stage img{
     width: 90vw;
@@ -266,21 +266,111 @@
 }
 
 @media screen and (width < 560px) {
+  html {
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+    max-width: 100%;
+    padding: 0px 20px;
+  }
   .top_header {
     justify-content: center;
     padding: 22px 0px;
-    gap: 15%;
+    gap: 18%;
+  }
+  .menu-icon {
+    font-size: 40px;
+  }
+  .m_put_header button{
+    width: 60px;
+    height: 40px;
   }
   .photo_main_header {
-    top: 20px;
-    left: -0%;
+    top: 0px;
+    left: -20%;
   }
   .photo_main_header img {
-    width: 160%;
+    width: 120%;
   }
   .main_text_header {
-    padding-top: 110%;
+    padding-top: 90%;
     text-align: center;
     width: 140%;
+  }
+  h3 {
+    font-size: 20px;
+    justify-content: center;
+    margin: 0px auto;
+    padding-bottom: 10px;
+  }
+  h3 span{
+    font-size: 20px;
+  }
+  .grid_prioritet {
+    padding-top: 20px;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+  .num_gridP {
+    text-align: center;
+    font-size: 50px;
+  }
+  .nameP {
+    text-align: center;
+  }
+  .descriptP {
+    text-align: center;
+  }
+  .give {
+    gap: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  .give li {
+    width: 80vw;
+    padding-left: 20px;
+  }
+  .study_busines {
+    padding-top: 50px;
+    display: grid;
+  }
+  .give img {
+    display: none;
+  }
+  .block_study p {
+    font-size: 15px;
+    width: 90vw;
+    text-align: center;
+  }
+  .num_stages p {
+    width: 43px;
+    height: 43px;
+    font-size: 20px;
+    text-align: center;
+  }
+  .name_stages {
+    padding: 23px 20px;
+    justify-content: left;
+  }
+  .text_stages p {
+    font-size: 18px;
+    padding-left: 6px;
+  }
+  .text_main_stages p {
+    font-size: 17px;
+    padding: 0px 23px 15px 23px;
+  }
+  .block_study img {
+    position: absolute;
+    width: 65vw;
+    left: 20%;  
+  }
+  .stages_grids, .img_stage img{
+    width: 90vw;
+  }
+  .study_busines {
+    padding-bottom: 50vw;
   }
 }
