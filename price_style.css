@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background: #fff;
+  max-width: 1920px;
+
+  margin: 0px auto;
+  padding: 0px 140px;
+  overflow-x: hidden;
+}
+
+.top_header {
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 0px;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+  gap: 27px;
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.phone_num_top_header {
+  display: flex;
+  gap: 10px;
+}
+
+.phone_num_top_header p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.time_top_header p {
+  color: var(--1, #2a2367);
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 34%;
+}
+
+.phone_num_top_header {
+  align-items: center;
+}
+
+.button_top_header button {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  width: 177px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: var(--2, #6b5af9);
+}
+
+.background {
+  width: 85vw;
+  height: 774px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--2, #6b5af9);
+}
