@@ -43,7 +43,7 @@
     position: fixed;
     top: 0;
     left: -2000px;
-    width: 45%;
+    width: 80vw;
     height: 100%;
     background: var(--2, #443a9a);
     transition: left 0.3s ease;
@@ -178,8 +178,12 @@
   .phone_butt {
     display: none;
   }
+  html {
+    overflow-x: hidden;
+  }
   body {
     overflow-x: hidden;
+    max-width: 100%;
   }
 }
 
@@ -263,6 +267,9 @@
   .study_busines {
     padding-bottom: 50vw;
   }
+  .call_we_footer, .contact_footer p{
+    font-size: 30px;
+  }
 }
 
 @media screen and (width < 560px) {
@@ -314,23 +321,21 @@
   }
   .num_gridP {
     text-align: center;
-    font-size: 50px;
+    font-size: 40px;
   }
   .nameP {
     text-align: center;
+    font-size: 14px;
   }
   .descriptP {
     text-align: center;
   }
   .give {
-    gap: 0px;
-    text-align: center;
-    display: flex;
     justify-content: center;
   }
   .give li {
-    width: 80vw;
-    padding-left: 20px;
+    width: 70vw;
+    padding-left: 0px;
   }
   .study_busines {
     padding-top: 50px;
@@ -373,4 +378,11 @@
   .study_busines {
     padding-bottom: 50vw;
   }
+  .why_me_give_bayer {
+    padding-top: 50px;
+  }
+  .call_we_footer, .contact_footer p{
+    font-size: 20px;
+  }
+  
 }
