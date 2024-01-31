@@ -9,6 +9,15 @@ body {
   overflow-x: hidden;
 }
 
+main {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+.main_header {
+  max-width: 1800px;
+  margin: 0px auto;
+}
+
 .top_header {
   display: flex;
   justify-content: space-between;
