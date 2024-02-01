@@ -69,122 +69,26 @@ body {
   background: var(--2, #6b5af9);
 }
 
-.background {
-  width: 80vw;
-  height: auto;
-  flex-shrink: 0;
-  border-radius: 20px;
-  background: var(--2, #6b5af9);
-  margin: 0px auto;
-}
-
-.grid_price {
-  display: grid;
-  margin: 0px auto;
-  max-width: 65vw;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  gap: 50px;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
-.grid {
-  width: 20vw;
-  height: auto;
-  border-radius: 10px;
-  background: #fff;
-  flex-shrink: 0;
-}
-
-.header_trafic {
-  text-align: center;
-  padding-top: 30px;
-}
-
-.trafic {
-  color: #7c7c7c;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  padding-bottom: 12px;
-}
-
-.name_trafic {
-  color: var(--1, #2a2367);
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  padding-bottom: 12px;
-}
-
-.sell {
-  color: var(--1, #2a2367);
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.sell_p {
-  color: var(--1, #2a2367);
-  font-family: Montserrat;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.header_trafic hr {
-  width: 100%;
-  margin: 15px 0px;
-  height: 1.5px;
-  background: #6b5af9;
-}
-
-.main_trafic {
-  padding: 10px 40px 10px 40px;
-}
-
-.main_trafic li::before {
-  content: "";
-}
-
-.main_trafic li {
-  color: var(--1, #2a2367);
-  font-family: Montserrat;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  margin: 15px 0px;
-}
-
 .main {
-  padding-bottom: 150px;
-}
-.button_price {
-  padding: 20px 0px;
-  text-align: center;
+  padding-top: 50px;
 }
 
-.button_price button {
-  color: #fff;
-  text-align: center;
+h3 {
+  color: #2a2367;
   font-family: Montserrat;
-  font-size: 12px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
-  width: 18vw;
-  height: 60px;
-  flex-shrink: 0;
-  border-radius: 5px;
-  background: #43cd93;
+}
+
+.h3 {
+  color: var(--2, #6b5af9);
+  font-family: Montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
 }
 
 .footer {
