@@ -125,38 +125,57 @@
 }
 
 @media screen and (width < 859px) {
+
   html {
     overflow-x: hidden;
   }
   body {
     overflow-x: hidden;
     max-width: 100%;
+    padding: 0px;
   }
   .top_header {
     justify-content: center;
     padding: 22px 0px;
     gap: 15%;
   }
-
+  .footer {
+    padding: 20px 20px 0px 20px;
+    margin: 50px;
+  }
   .call_we_footer,
   .contact_footer p {
-    font-size: 30px;
+    font-size: 30px;    
+      
+  }
+  .grid_price {
+    width: 220vw;
+  }
+  main {
+    width: 90vw;
+    margin: 0px auto;
+    justify-content: center;
+    padding: 0px;
   }
 }
 
 @media screen and (width < 560px) {
+  .contact_footer button {
+    width: 70vw;
+  }
+  
   html {
     overflow-x: hidden;
   }
   body {
     overflow-x: hidden;
     max-width: 100%;
-    padding: 0px 20px;
+    padding: 0px;
   }
   .top_header {
     justify-content: center;
     padding: 22px 0px;
-    gap: 18%;
+    gap: 10vw ;
   }
   .menu-icon {
     font-size: 40px;
@@ -169,14 +188,6 @@
     top: 0px;
     left: -20%;
   }
-  .photo_main_header img {
-    width: 120%;
-  }
-  .main_text_header {
-    padding-top: 90%;
-    text-align: center;
-    width: 140%;
-  }
   .call_we_footer,
   .contact_footer p {
     font-size: 20px;
@@ -188,6 +199,12 @@
   }
   .main_trafic {
     padding: 5px 15px;
+  }
+  .background {
+    width: 600px;
+  }
+  main {
+    max-width: 600px;
   }
 }
 

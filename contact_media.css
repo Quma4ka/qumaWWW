@@ -143,6 +143,10 @@
 }
 
 @media screen and (width < 560px) {
+  .contact_footer button {
+    width: 70vw;
+  }
+  
   html {
     overflow-x: hidden;
   }

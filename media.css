@@ -242,12 +242,6 @@
     padding-top: 50px;
     display: grid;
   }
-  .give img {
-    position: absolute;
-    width: 140px;
-    left: -10px;
-    z-index: -1;
-  }
   .block_study p {
     font-size: 20px;
     width: 70vw;
@@ -284,7 +278,7 @@
   .top_header {
     justify-content: center;
     padding: 22px 0px;
-    gap: 18%;
+    gap: 10vw;
   }
   .menu-icon {
     font-size: 40px;
@@ -332,17 +326,23 @@
   }
   .give {
     justify-content: center;
+    margin: 0px auto;
+    text-align: center;
   }
   .give li {
-    width: 70vw;
+    width: 90vw;
+    text-align: center;
     padding-left: 0px;
+  }
+  .give H2 {
+    text-align: center;
   }
   .study_busines {
     padding-top: 50px;
     display: grid;
   }
-  .give img {
-    display: none;
+  .give{
+    display: block;
   }
   .block_study p {
     font-size: 15px;
@@ -383,6 +383,9 @@
   }
   .call_we_footer, .contact_footer p{
     font-size: 20px;
+  }
+  .contact_footer button {
+    width: 70vw;
   }
   
 }

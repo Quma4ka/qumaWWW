@@ -591,3 +591,24 @@ h3 span {
 .hidden {
   display: none;
 }
+
+/* ----- */
+
+.popup-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.popup-menu a {
+  display: block;
+  padding: 5px;
+  color: #333;
+  text-decoration: none;
+}
+
+.popup-menu a:hover {
+  background-color: #eaeaea;
+}
