@@ -14,6 +14,7 @@ body {
   justify-content: space-between;
   padding: 42px 0px;
   align-items: center;
+  position: relative;
 }
 
 .menu ul {
@@ -69,10 +70,6 @@ body {
   background: var(--2, #6b5af9);
 }
 
-.main {
-  padding-top: 50px;
-}
-
 h3 {
   color: #2a2367;
   font-family: Montserrat;
@@ -91,147 +88,17 @@ h3 {
   line-height: normal;
 }
 
-.footer {
-  padding: 10px 0px 40px 0px;
-}
-
-.call_we_footer {
-  padding-top: 75px;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.contact_footer {
-  display: flex;
-  padding-top: 30px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.contact_footer p {
-  color: var(--2, #6b5af9);
-  font-family: Montserrat;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.contact_footer button {
-  border-radius: 5px;
-  background: var(--2, #6b5af9);
-  width: 341px;
-  height: 60px;
-  flex-shrink: 0;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.hr_footer {
-  padding: 40px 0px;
-}
-
-.hr_footer hr {
-  width: 1360px;
-  background: #6b5af9;
-  height: 0.5px;
-}
-
-.adres_footer p {
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.adres_footer {
+.main-main {
   display: flex;
   justify-content: space-between;
 }
 
-.b1_f button {
-  background-image: url("img/telegram_footer.png");
-  width: 40px;
-  height: 40px;
-  background-size: 40px;
-  background-repeat: no-repeat;
+.img_contact img {
+  width: 1500px;
 }
 
-.b2_f button {
-  background-image: url("img/whatsapp_footer.png");
-  width: 40px;
-  height: 40px;
-  background-size: 40px;
-  background-repeat: no-repeat;
-}
-.tg_call_footer {
-  display: flex;
-  gap: 20px;
-}
-
-.num_footer {
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  padding-top: 20px;
-}
-
-.logo_footer img {
-  width: 200px;
-}
-.logo_footer {
-  text-align: center;
-}
-
-.last_text {
-  padding-top: 30px;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-align: center;
-}
-
-.href_footer a {
-  color: white;
-  padding-top: 40px;
-}
-.href_footer {
-  padding-top: 40px;
-  text-align: center;
-  color: #fff;
-  font-family: Montserrat;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-decoration-line: underline;
-}
-
-.hidden {
-  display: none;
-}
-
-.color_footer {
-  background: var(--1, #2a2367);
+.img_contact {
   position: absolute;
-  left: 0px;
-  z-index: -1;
-  width: 100%;
-  height: 550px;
+  top: 100px;
+  left: 200px;
 }
