@@ -76,4 +76,7 @@
     .input {
       padding: 40px 50px;
     }
+    #phoneInput, #nameInput {
+      width: 200px;
+    }
   }
