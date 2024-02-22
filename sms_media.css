@@ -1,0 +1,78 @@
+@media screen and (width < 1400px) {
+  .but_top_okno button {
+    width: 3vw;
+    height: 3vw;
+  }
+  .logo_sms img {
+    width: 12vw;
+    height: auto;
+  }
+  .input {
+    text-align: left;
+    padding: 60px 10px;
+  }
+  .button_main button {
+    font-size: 1.5vw;
+  }
+}
+
+@media screen and (width < 1000px) {
+  .ininput {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0px;
+  }
+  .button_main button {
+    font-size: 1.8vw;
+  }
+  .input {
+    text-align: center;
+  }
+  .message_info p {
+    font-size: 15px;
+    max-width: 60vw;
+    padding-top: 15px;
+  }
+  .img_sms {
+    display: none;
+  }
+}
+
+@media screen and (width < 700px) {
+  h1 {
+    font-size: 30px;
+  }
+  .but_top_okno button {
+    width: 4vw;
+    height: 4vw;
+  }
+  .logo_sms img {
+    width: 20vw;
+  }
+  .button_main button {
+    font-size: 3vw;
+  }
+  .input {
+    padding: 40px 50px;
+  }
+}
+
+@media screen and (width < 500px) {
+    h1 {
+      font-size: 25px;
+    }
+    .but_top_okno button {
+      width: 4vw;
+      height: 4vw;
+    }
+    .logo_sms img {
+      width: 20vw;
+    }
+    .button_main button {
+      font-size: 3vw;
+    }
+    .input {
+      padding: 40px 50px;
+    }
+  }

@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Закзаз звонка</title>
     <link rel="stylesheet" href="sms.css" />
-    <link rel="stylesheet" href=".css" />
+    <link rel="stylesheet" href="sms_media.css" />
     <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
     <div class="rgb-background">
       <div class="okno">
         <div class="top_okno">
-          <div><img src="img/logo.png" style="width: 10%" alt="" /></div>
+          <div class="logo_sms"><img src="img/logo.png" alt="" /></div>
           <div class="but_top_okno" onclick="window.location.href='index.html'">
             <button></button>
           </div>
@@ -22,17 +22,23 @@
           <div class="ininput">
             <div class="input">
               <div><h2>Номер телефона</h2></div>
-              <div><input type="text" placeholder="+79999999999" /></div>
+              <div><input type="text" id="phoneInput" placeholder="+79999999999" /></div>
               <div><h2>Ваше имя</h2></div>
-              <div><input type="name" placeholder="Иван" /></div>
+              <div><input type="text" id="nameInput" placeholder="Иван" /></div>
             </div>
             <div class="photo_input">
-                <img src="" alt="">
+              <img src="img/sms.png" alt="">
             </div>
           </div>
+          <div class="button_main">
+            <button onclick="validateInputs()">Отправить</button>
+          </div>
+          <div class="message_info"><p>Нажимая на кнопку «Отправить заявку», я даю согласие на обработку персональных данных и соглашаюсь c политикой конфиденциальности</p></div>
+          <div class="img_sms"><img src="img/sms_conf.png" alt=""></div>
         </div>
       </div>
     </div>
   </body>
   <script src="sms.js"></script>
+  <script src="bot.js"></script>
 </html>

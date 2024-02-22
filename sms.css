@@ -60,9 +60,18 @@ h1 {
   text-align: center;
 }
 
+.logo_sms img {
+  width: 10%;
+  height: auto;
+}
+
+
+
+
+
 .input {
   text-align: left;
-  padding: 80px 150px;
+  padding: 80px 50px;
 }
 
 h2 {
@@ -73,7 +82,7 @@ h2 {
   letter-spacing: 0em;
 }
 .input div {
-  margin: 20px;
+  margin-top: 20px;
 }
 .input input {
   font-family: Montserrat;
@@ -82,4 +91,59 @@ h2 {
   line-height: 15px;
   letter-spacing: 0em;
   text-align: left;
+  border-bottom: solid 3px black;
+}
+
+.button_main button {
+  font-family: Montserrat;
+  font-size: 1vw;
+  font-weight: 800;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 60%;
+  height: 60px;
+  top: 254px;
+  left: 79px;
+  border-radius: 5px;
+  background: #6b5af9;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.photo_input img {
+  width: 400px;
+}
+
+.ininput {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.message_info p {
+  font-family: Montserrat;
+  font-size: 20px;
+  max-width: 50vw;
+  text-align: center;
+  margin: 0px auto;
+  padding-top: 30px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #9895b4;
+}
+
+.img_sms {
+  padding: 20px;
+  text-align: center;
+}
+
+.img_sms img{
+  width: 300px;
 }
